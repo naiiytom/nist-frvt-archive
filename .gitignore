@@ -1,2 +1,8 @@
 # vscode
 .vscode
+
+# models
+*.params
+
+# library
+11/lib/
