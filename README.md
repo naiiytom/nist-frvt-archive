@@ -1,14 +1,21 @@
 # AIGEN FRVT 1:1 Archive Repository
 
-This repository is an archive to keep track of progress
+**This repository is an archive to keep track of progress**
+
+
+> Download [model.tar.gz](https://github.com/naiiytom/nist-frvt-archive/releases/download/v1.0/model.tar.gz) and [lib.tar.gz](https://github.com/naiiytom/nist-frvt-archive/releases/download/v1.0/lib.tar.gz) from [release](https://github.com/naiiytom/nist-frvt-archive/releases/) section and extract them accordingly.
 
 .
 
 .
 
-.
+---
 
-.
+## Download section
+
+| Release | Model | Library |
+|---------|-------|---------|
+| [V1.0](https://github.com/naiiytom/nist-frvt-archive/releases/tag/v1.0) | [model.tar.gz](https://github.com/naiiytom/nist-frvt-archive/releases/download/v1.0/model.tar.gz) | [lib.tar.gz](https://github.com/naiiytom/nist-frvt-archive/releases/download/v1.0/lib.tar.gz) |
 
 
 ---
