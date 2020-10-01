@@ -8,6 +8,11 @@
  * about its quality, reliability, or any other characteristic.
  */
 
+// for measuring execute time
+#include <chrono>
+using namespace std::chrono;
+//
+
 #include <fstream>
 #include <iostream>
 #include <cstring>
@@ -75,6 +80,9 @@ int createTemplate(
     string id, imagePath, desc;
     while (inputStream >> id >> imagePath >> desc)
     {
+        /* measuring time */
+        auto start_time = high_resolution_clock::now();
+        /* */
         Image image;
         if (!readImage(imagePath, image))
         {
@@ -100,6 +108,11 @@ int createTemplate(
         /* Write template file */
         templStream.write((char *)templ.data(), templ.size());
 
+        /* measuring time process */
+        auto stop_time =high_resolution_clock::now();
+        auto duration = duration_cast<nanoseconds>(stop_time - start_time);
+        cout << "Duration: " << duration.count() << " nanoseconds" << endl;
+        /* */
         /* Write template stats to log */
         logStream << id << " "
                   << imagePath << " "
