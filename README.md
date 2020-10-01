@@ -15,7 +15,8 @@
 
 | Release | Model | Library |
 |---------|-------|---------|
-| [V1.0](https://github.com/naiiytom/nist-frvt-archive/releases/tag/v1.0) | [model.tar.gz](https://github.com/naiiytom/nist-frvt-archive/releases/download/v1.0/model.tar.gz) | [lib.tar.gz](https://github.com/naiiytom/nist-frvt-archive/releases/download/v1.0/lib.tar.gz) |
+| [v1.0](https://github.com/naiiytom/nist-frvt-archive/releases/tag/v1.0) | [model.tar.gz](https://github.com/naiiytom/nist-frvt-archive/releases/download/v1.0/model.tar.gz) | [lib.tar.gz](https://github.com/naiiytom/nist-frvt-archive/releases/download/v1.0/lib.tar.gz) |
+| [v1.1](https://github.com/naiiytom/nist-frvt-archive/releases/tag/v1.1) | [model.tar.gz](https://github.com/naiiytom/nist-frvt-archive/releases/download/v1.1/model.tar.gz) | [lib.tar.gz](https://github.com/naiiytom/nist-frvt-archive/releases/download/v1.1/lib.tar.gz) |
 
 
 ---
