@@ -111,7 +111,7 @@ int createTemplate(
         /* measuring time process */
         auto stop_time =high_resolution_clock::now();
         auto duration = duration_cast<nanoseconds>(stop_time - start_time);
-        cout << "Duration: " << duration.count() << " nanoseconds" << endl;
+        cout << "ID: " << id << " | Path: " << imagePath << " | Duration: " << duration.count() << " nanoseconds" << endl;
         /* */
         /* Write template stats to log */
         logStream << id << " "
