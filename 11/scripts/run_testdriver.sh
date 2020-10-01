@@ -89,7 +89,7 @@ bin/validate11 createTemplate -x enroll -c $configDir -o $outputDir -h $outputSt
 retEnroll=$?
 DURATION=$SECONDS
 AVG_TIME=`echo $DURATION/663 | bc -l`
-echo "Total time usage: $DURATION seconds | Mean time: $AVG_TIME seconds" > timeit.txt
+echo "Total time usage: $DURATION seconds | Mean time: $AVG_TIME seconds" >> timeit.txt
 # End checking for threading
 kill -9 "$pid"
 wait "$pid" 2>/dev/null
