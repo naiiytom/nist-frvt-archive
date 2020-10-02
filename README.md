@@ -19,6 +19,10 @@
 **v1.2**
 - fixed stdout from mxnet 3rd party library
 
+**v1.3**
+- clear unused libraries
+- minimize libraries size
+
 ---
 
 ## Download section
@@ -28,7 +32,7 @@
 | [v1.0](https://github.com/naiiytom/nist-frvt-archive/releases/tag/v1.0) | [model.tar.gz](https://github.com/naiiytom/nist-frvt-archive/releases/download/v1.0/model.tar.gz) | [lib.tar.gz](https://github.com/naiiytom/nist-frvt-archive/releases/download/v1.0/lib.tar.gz) |
 | [v1.1](https://github.com/naiiytom/nist-frvt-archive/releases/tag/v1.1) | [model.tar.gz](https://github.com/naiiytom/nist-frvt-archive/releases/download/v1.1/model.tar.gz) | [lib.tar.gz](https://github.com/naiiytom/nist-frvt-archive/releases/download/v1.1/lib.tar.gz) |
 | [v1.2](https://github.com/naiiytom/nist-frvt-archive/releases/tag/v1.2) | [model.tar.gz](https://github.com/naiiytom/nist-frvt-archive/releases/download/v1.2/model.tar.gz) | [lib.tar.gz](https://github.com/naiiytom/nist-frvt-archive/releases/download/v1.2/lib.tar.gz) |
-
+| [v1.3](https://github.com/naiiytom/nist-frvt-archive/releases/tag/v1.3) | [model.tar.gz](https://github.com/naiiytom/nist-frvt-archive/releases/download/v1.3/model.tar.gz) | [lib.tar.gz](https://github.com/naiiytom/nist-frvt-archive/releases/download/v1.3/lib.tar.gz) |
 
 ---
 
