@@ -23,6 +23,10 @@
 - clear unused libraries
 - minimize libraries size
 
+**v1.rc-1**
+- change retinaface backbone from ResNet50 -> MobileNet
+- remove stdout from test code
+
 ---
 
 ## Download section
@@ -33,6 +37,7 @@
 | [v1.1](https://github.com/naiiytom/nist-frvt-archive/releases/tag/v1.1) | [model.tar.gz](https://github.com/naiiytom/nist-frvt-archive/releases/download/v1.1/model.tar.gz) | [lib.tar.gz](https://github.com/naiiytom/nist-frvt-archive/releases/download/v1.1/lib.tar.gz) |
 | [v1.2](https://github.com/naiiytom/nist-frvt-archive/releases/tag/v1.2) | [model.tar.gz](https://github.com/naiiytom/nist-frvt-archive/releases/download/v1.2/model.tar.gz) | [lib.tar.gz](https://github.com/naiiytom/nist-frvt-archive/releases/download/v1.2/lib.tar.gz) |
 | [v1.3](https://github.com/naiiytom/nist-frvt-archive/releases/tag/v1.3) | [model.tar.gz](https://github.com/naiiytom/nist-frvt-archive/releases/download/v1.3/model.tar.gz) | [lib.tar.gz](https://github.com/naiiytom/nist-frvt-archive/releases/download/v1.3/lib.tar.gz) |
+| [v1.rc-1](https://github.com/naiiytom/nist-frvt-archive/releases/tag/v1.rc-1) | [model.tar.gz](https://github.com/naiiytom/nist-frvt-archive/releases/download/v1.rc-1/model.tar.gz) | [lib.tar.gz](https://github.com/naiiytom/nist-frvt-archive/releases/download/v1.rc-1/lib.tar.gz) |
 
 ---
 

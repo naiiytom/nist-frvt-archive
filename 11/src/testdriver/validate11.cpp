@@ -81,7 +81,7 @@ int createTemplate(
     while (inputStream >> id >> imagePath >> desc)
     {
         /* measuring time */
-        auto start_time = high_resolution_clock::now();
+        // auto start_time = high_resolution_clock::now();
         /* */
         Image image;
         if (!readImage(imagePath, image))
@@ -109,10 +109,10 @@ int createTemplate(
         templStream.write((char *)templ.data(), templ.size());
 
         /* measuring time process */
-        auto stop_time = high_resolution_clock::now();
-        auto duration = duration_cast<nanoseconds>(stop_time - start_time);
+        // auto stop_time = high_resolution_clock::now();
+        // auto duration = duration_cast<nanoseconds>(stop_time - start_time);
         // cout << "ID: " << id << " | Path: " << imagePath << " | Duration: " << duration.count() << " nanoseconds" << endl;
-        cout << duration.count() << endl;
+        // cout << duration.count() << endl;
         /* */
 
         /* Write template stats to log */

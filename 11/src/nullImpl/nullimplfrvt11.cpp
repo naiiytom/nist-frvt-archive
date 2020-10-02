@@ -40,7 +40,7 @@ double cosineSimilarity(float *A, float *B, unsigned int Vector_Length, unsigned
         similarity = 0;
     }
 
-    return similarity;
+    return similarity * 1000000;
 }
 
 NullImplFRVT11::NullImplFRVT11() {}
