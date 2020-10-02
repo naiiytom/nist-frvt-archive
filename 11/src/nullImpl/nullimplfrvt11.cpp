@@ -51,7 +51,7 @@ ReturnStatus
 NullImplFRVT11::initialize(const std::string &configDir)
 {
 
-    string detector_file_params = configDir + "/model/retinaface_r50_v1/R50-0000.params";
+    string detector_file_params = configDir + "/model/retinaface_mnet25_v1/mnet.25-0000.params";
     string recognitor_file_params = configDir + "/model/arcface_r100_v1/model-0000.params";
 
     detector.initialize(detector_file_params);

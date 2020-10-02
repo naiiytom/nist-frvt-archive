@@ -630,12 +630,12 @@ std::vector<FaceDetectInfo> RetinaFace::detect(Mat img, float threshold, float s
 
     // std::cout << "Image type: " << im.type() << std::endl;
 
-    //if (scale != 1.0) {
-    //    cv::resize(im, im, cv::Size(), scale, scale, CV_INTER_LINEAR);
-    //}
+    if (scale != 1.0) {
+       cv::resize(im, im, cv::Size(), scale, scale, CV_INTER_LINEAR);
+    }
 
     // Resizing image to specifice 640x480 px
-    cv::resize(im, im, cv::Size(480, 640), 0, 0, CV_INTER_LINEAR);
+    // cv::resize(im, im, cv::Size(480, 640), 0, 0, CV_INTER_LINEAR);
 
     // im.convertTo(im, CV_32FC3);
     cv::cvtColor(im, im, CV_BGR2RGB);
