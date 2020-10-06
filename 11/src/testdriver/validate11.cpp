@@ -8,11 +8,6 @@
  * about its quality, reliability, or any other characteristic.
  */
 
-// for measuring execute time
-#include <chrono>
-using namespace std::chrono;
-//
-
 #include <fstream>
 #include <iostream>
 #include <cstring>
@@ -80,9 +75,6 @@ int createTemplate(
     string id, imagePath, desc;
     while (inputStream >> id >> imagePath >> desc)
     {
-        /* measuring time */
-        // auto start_time = high_resolution_clock::now();
-        /* */
         Image image;
         if (!readImage(imagePath, image))
         {
@@ -108,26 +100,18 @@ int createTemplate(
         /* Write template file */
         templStream.write((char *)templ.data(), templ.size());
 
-        /* measuring time process */
-        // auto stop_time = high_resolution_clock::now();
-        // auto duration = duration_cast<nanoseconds>(stop_time - start_time);
-        // cout << "ID: " << id << " | Path: " << imagePath << " | Duration: " << duration.count() << " nanoseconds" << endl;
-        // cout << duration.count() << endl;
-        /* */
-
         /* Write template stats to log */
-        logStream
-            << id << " "
-            << imagePath << " "
-            << templ.size() << " "
-            << static_cast<std::underlying_type<ReturnCode>::type>(ret.code) << " "
-            << (eyes.size() > 0 ? eyes[0].isLeftAssigned : false) << " "
-            << (eyes.size() > 0 ? eyes[0].isRightAssigned : false) << " "
-            << (eyes.size() > 0 ? eyes[0].xleft : 0) << " "
-            << (eyes.size() > 0 ? eyes[0].yleft : 0) << " "
-            << (eyes.size() > 0 ? eyes[0].xright : 0) << " "
-            << (eyes.size() > 0 ? eyes[0].yright : 0)
-            << endl;
+        logStream << id << " "
+                  << imagePath << " "
+                  << templ.size() << " "
+                  << static_cast<std::underlying_type<ReturnCode>::type>(ret.code) << " "
+                  << (eyes.size() > 0 ? eyes[0].isLeftAssigned : false) << " "
+                  << (eyes.size() > 0 ? eyes[0].isRightAssigned : false) << " "
+                  << (eyes.size() > 0 ? eyes[0].xleft : 0) << " "
+                  << (eyes.size() > 0 ? eyes[0].yleft : 0) << " "
+                  << (eyes.size() > 0 ? eyes[0].xright : 0) << " "
+                  << (eyes.size() > 0 ? eyes[0].yright : 0)
+                  << endl;
     }
     inputStream.close();
 
